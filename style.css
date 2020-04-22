@@ -1,0 +1,33 @@
+:root {
+  --white: white;
+  --red: brown;
+  --black: #000;
+}
+
+.root {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.grid {
+  margin: auto;
+  display: grid;
+  position: relative;
+  width: 100vmin;
+  height: 100vmin;
+  grid-template: repeat(auto-fit, auto);
+}
+
+.perfectpixel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('./perfectpixel.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 40%;
+  z-index: 999;
+}
