@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "test": "pug -w -P ./index.pug index.html"
+    "pug": "pug -w -P ./index.pug index.html"
   }
 }
