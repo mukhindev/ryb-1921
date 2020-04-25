@@ -54,6 +54,7 @@
   perspective: 640px;
 }
 
+/*
 .grid::before {
   content: '';
   display: block;
@@ -66,9 +67,10 @@
   background-size: contain;
   background-position: top center;
   background-repeat: no-repeat;
-  opacity: 0%;
+  opacity: 30%;
   z-index: 1;
 }
+*/
 
 .grid::after {
   content: '';
@@ -85,7 +87,7 @@
 
 .grid__cell {
   margin: var(--cellMargin);
-  box-shadow: inset 0 0 64px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 64px rgba(0, 0, 0, 0.15);
   background-image: url(./noise.png);
   background-size: 400px;
   background-position: center;
