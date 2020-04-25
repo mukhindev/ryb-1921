@@ -45,7 +45,7 @@
   width: 100%;
   max-width: calc(var(--gridSize) * var(--scale));
   height: calc(var(--gridSize) * var(--scale));
-  grid-template-columns: repeat(auto-fit, minmax(var(--scale), 1fr));
+  grid-template-columns: repeat(auto-fit, var(--scale));
   grid-template-rows: repeat(var(--gridSize), var(--scale));
   grid-auto-flow: dense;
   transition: 1s;
