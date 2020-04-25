@@ -12,8 +12,9 @@
 }
 
 .root {
-  --white: white;
-  --black: black;
+  --white: rgb(255, 255, 255);
+  --gray: rgb(202, 202, 202);
+  --black: rgb(0, 0, 0);
   --red: rgb(235, 29, 14);
   --blue: rgb(0, 0, 255);
   --yellow: rgb(255, 195, 65);
@@ -23,10 +24,12 @@
   --offset: 12px;
   --animation-cell: intro-cell 2s forwards;
   --animation-white: 3s;
-  --animation-black: 3.1s;
-  --animation-red: 3.2s;
-  --animation-blue: 3.3s;
-  --animation-yellow: 3.4s;
+  --animation-gray: 3.1s;
+  --animation-black: 3.2s;
+  --animation-red: 3.3s;
+  --animation-blue: 3.4s;
+  --animation-yellow: 3.5s;
+
   margin: 0;
   background-color: rgb(34, 34, 34);
   background: radial-gradient(circle, rgb(23, 73, 107) 0%, rgba(0,0,0,1) 100%);
@@ -91,10 +94,10 @@
 }
 
 .grid__cell:nth-child(1) {
-  background-color: var(--white);
+  background-color: var(--gray);
   grid-column: span 9;
   grid-row: span 4;
-  animation-delay: var(--animation-white);
+  animation-delay: var(--animation-gray);
 }
 
 .grid__cell:nth-child(2) {
@@ -147,10 +150,10 @@
 }
 
 .grid__cell:nth-child(9) {
-  background-color: var(--white);
+  background-color: var(--gray);
   grid-column: span 4;
   grid-row: span 15;
-  animation-delay: var(--animation-white);
+  animation-delay: var(--animation-gray);
 }
 
 .grid__cell:nth-child(10) {
@@ -161,10 +164,10 @@
 }
 
 .grid__cell:nth-child(11) {
-  background-color: var(--white);
+  background-color: var(--gray);
   grid-column: span 10;
   grid-row: span 5;
-  animation-delay: var(--animation-white);
+  animation-delay: var(--animation-gray);
 }
 
 .grid__cell:nth-child(12) {
@@ -175,10 +178,10 @@
 }
 
 .grid__cell:nth-child(13) {
-  background-color: var(--white);
+  background-color: var(--gray);
   grid-column: span 10;
   grid-row: span 5;
-  animation-delay: var(--animation-white);
+  animation-delay: var(--animation-gray);
 }
 
 .grid__cell:nth-child(14) {
@@ -203,16 +206,16 @@
 }
 
 .grid__cell:nth-child(17) {
-  background-color: var(--white);
+  background-color: var(--gray);
   grid-column: span 2;
   grid-row: span 30;
-  animation-delay: var(--animation-white);
+  animation-delay: var(--animation-gray);
 }
 
 .grid__cell:nth-child(18) {
   background-color: var(--red);
   grid-column: span 2;
-  grid-row: span 30;
+  grid-row: span 10;
   animation-delay: var(--animation-red);
 }
 

@@ -1,4 +1,4 @@
-# RYB1921
+# ryb-1921
 
 Имитация картины "[Композиция с большой красной плоскостью, желтым, черным, серым и синим](https://www.wikiart.org/ru/pit-mondrian/kompozitsiya-s-bolshoy-krasnoy-ploskostyu-zheltym-chernym-serym-i-sinim-1921)" Пита Мондриана с использованием CSS Grid Layout.
 
